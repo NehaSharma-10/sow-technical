@@ -47,11 +47,11 @@ const FirstElement = () => {
   ];
   return (
     <>
-      <div className="">
+      <div className="w-full">
         <h2 className="text-[#887C68] uppercase text-center text-[20px] sm:text-[28px] text-martel font-semibold my-10">
           Communities we manage
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 lg:m-10">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 lg:m-5">
           {data.map((val) => {
             return (
               <div
