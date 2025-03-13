@@ -135,7 +135,7 @@ const SecondElement = () => {
                   <div
                     className={`flex flex-col justify-end gradient-box h-[552px]  bg-[linear-gradient(180.21deg,rgba(255,255,255,0) 61.75%,rgba(0,0,0,0.8) 99.82%)] `}
                   >
-                    <p className="text-martel text-white font-semibold uppercase text-center text-[28px] mb-10">
+                    <p className="text-martel text-white font-semibold uppercase text-center text-[18px] sm:text-[28px] mb-10">
                       {index.name}
                     </p>
                   </div>
